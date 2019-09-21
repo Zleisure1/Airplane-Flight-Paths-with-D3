@@ -1,0 +1,260 @@
+,PASSENGERS,Passenger Miles,CARRIER_NAME
+0,144637180,116627136731,Southwest Airlines Co. Total
+1,137916298,186140690281,Delta Air Lines Inc. Total
+2,118541411,166869071222,American Airlines Inc. Total
+3,95028877,182508547016,United Air Lines Inc. Total
+4,35130683,41726258863,JetBlue Airways Total
+5,30078314,16965403368,SkyWest Airlines Inc. Total
+6,28269616,32330747593,US Airways Inc. Total
+7,26002874,12683188091,ExpressJet Airlines Inc. Total
+8,22868140,30301282863,Alaska Airlines Inc. Total
+9,17629033,17944023815,Spirit Air Lines Total
+10,14043606,6774383986,Republic Airlines Total
+11,13104187,13329939730,Frontier Airlines Inc. Total
+12,12304231,5391180178,Envoy Air Total
+13,11416204,6409816100,Mesa Airlines Inc. Total
+14,10459770,14437289617,Hawaiian Airlines Inc. Total
+15,10279270,5530870384,Endeavor Air Inc. Total
+16,9560098,8993561369,Allegiant Air Total
+17,9138696,3514221072,PSA Airlines Inc. Total
+18,7909194,2300571592,Horizon Air Total
+19,7818321,4339150021,Shuttle America Corp. Total
+20,7068903,30129557351,British Airways Plc Total
+21,6993269,10428209311,Virgin America Total
+22,6312190,2286605964,Air Wisconsin Airlines Corp Total
+23,5529920,25678566746,Lufthansa German Airlines Total
+24,4954755,3506328231,Compass Airlines Total
+25,4378275,2446390156,GoJet Airlines LLC d/b/a United Express Total
+26,4340453,5867951544,Westjet Total
+27,3875015,5666136855,Air Canada Total
+28,3590723,15212198022,Virgin Atlantic Airways Total
+29,3574270,15465856424,Compagnie Natl Air France Total
+30,3119687,4986415173,Aeromexico Total
+31,3012129,21694105342,Emirates Total
+32,2979313,1316075314,Trans States Airlines Total
+33,2930579,4273327882,Air Canada rouge LP Total
+34,2904775,486004483,Piedmont Airlines Total
+35,2655328,14661486502,Korean Air Lines Co. Ltd. Total
+36,2604874,3134984144,Sun Country Airlines d/b/a MN Airlines Total
+37,2230792,3262603006,Concesionaria Vuela Compania De Aviacion SA de CV (Volaris) Total
+38,2134182,10032529396,Japan Air Lines Co. Ltd. Total
+39,2061716,3827809373,Compania Panamena (Copa) Total
+40,2024429,14836212813,Cathay Pacific Airways Ltd. Total
+41,1816652,7295007053,Transportes Aeros Meridiona Total
+42,1765881,1048149343,Jazz Aviation LP Total
+43,1681191,7643405166,Klm Royal Dutch Airlines Total
+44,1621374,9172425431,Turk Hava Yollari A.O. Total
+45,1574036,8086720030,Asiana Airlines Inc. Total
+46,1565946,8823185727,All Nippon Airways Co. Total
+47,1464531,9683621053,Eva Airways Corporation Total
+48,1431283,4923257011,Aer Lingus Plc Total
+49,1373997,663561010,Sky Regional Airlines Inc. Total
+50,1352963,6179239331,Swiss International Airlines Total
+51,1299062,8403505440,Air China Total
+52,1282417,10053580278,Qantas Airways Ltd. Total
+53,1275302,2285229085,Aerovias Nacl De Colombia Total
+54,1272179,9254661297,Qatar Airways (Q.C.S.C) Total
+55,1147021,8481287684,Etihad Airways Total
+56,1141666,2108594869,Taca International Airlines Total
+57,1094091,218735077,"Commutair Aka Champlain Enterprises, Inc. Total"
+58,1090475,4875609274,Norwegian Air Shuttle ASA Total
+59,1042759,4387689933,Scandinavian Airlines Sys. Total
+60,990369,6049087604,Air New Zealand Total
+61,983164,1690535109,Caribbean Airlines Limited Total
+62,970186,3958061954,Iberia Air Lines Of Spain Total
+63,966366,4425549877,Compagnia Aerea Italiana Total
+64,933832,5552826031,China Airlines Ltd. Total
+65,891216,3906194414,Air Berlin PLC and CO Total
+66,887902,6253453335,Singapore Airlines Ltd. Total
+67,872816,2534808213,Icelandair Total
+68,815213,309624884,"Porter Airlines, Inc. Total"
+69,774893,4643305292,China Eastern Airlines Total
+70,724209,801453164,ABC Aerolineas SA de CV dba Interjet Total
+71,705668,4190263933,El Al Israel Airlines Ltd. Total
+72,705410,155745943,Silver Airways Total
+73,703218,3030033533,Lan-Chile Airlines Total
+74,702905,4485657564,Philippine Airlines Inc. Total
+75,683665,70974477,Cape Air Total
+76,680751,3503095299,Aeroflot Russian Airlines Total
+77,607939,504522582,Aerolitoral Total
+78,585156,1882599223,Lan Peru Airlines Total
+79,566750,4304865869,National Aviation Company of India Limited d/b/a Air India Total
+80,531828,2365523100,Austrian Airlines Total
+81,479910,2236312839,Aerolineas Argentinas Total
+82,463885,92951400,Bahamasair Holding Limited Total
+83,442458,94488643,Era Aviation Total
+84,427198,3127251282,Virgin Blue International Airlines t/a V Australia Total
+85,421977,3107689578,China Southern Airlines Total
+86,403353,2506032880,Hainan Airlines Company Limited Total
+87,401919,185083544,Air Georgian Total
+88,388771,1598686632,Azul Linhas Aereas Brazileiras S A Total
+89,366214,498051040,"Santa Barbara Airlines, C.A Total"
+90,350506,228909966,"Swift Air, LLC Total"
+91,345787,33794680,Island Air Hawaii Total
+92,338040,2332255412,Saudi Arabian Airlines Corp Total
+93,317675,1368237713,Thomas Cook Airlines Uk Ltd. Total
+94,301061,1344711443,Polskie Linie Lotnicze Total
+95,287653,2175807398,South African Airways Total
+96,285724,1040617641,Tap-Portuguese Airlines Total
+97,270068,1084605097,Air Europa Total
+98,267419,1370311572,Jetstar Airways Pty Limited Total
+99,259265,26559884,Hageland Aviation Service Total
+100,258034,14668939,"Grand Canyon Airlines, Inc. d/b/a Grand Canyon Airlines d/b/a Scenic Airlines Total"
+101,246530,1092828356,Air Tahiti Nui Total
+102,243959,778273715,Omni Air Express Total
+103,243064,16922182,"Mokulele Flight Services, Inc. Total"
+104,242827,1206395850,Condor Flugdienst Total
+105,238560,524296025,Lacsa Total
+106,237173,29620391,Seaborne Aviation Total
+107,233201,595338799,Lan Ecuador Total
+108,226276,843034942,Brussels Airlines N.V. Total
+109,225982,967550094,Finnair Oy Total
+110,221922,99802090,Peninsula Airways Inc. Total
+111,212210,143285723,Cayman Airways Limited Total
+112,209741,1267665755,Alia-(The) Royal Jordanian Total
+113,203055,84122918,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines Total"
+114,194082,1014585733,Air Pacific Ltd. Total
+115,193866,388119732,Jin Air Co Ltd. Total
+116,190299,289497862,Air Transat Total
+117,187338,14122018,Empire Airlines Inc. Total
+118,177893,250016443,Sunwing Airlines Inc. Total
+119,177503,178105692,XTRA Airways Total
+120,174836,696480292,XL Airways France Total
+121,168036,942460266,Jet Airways (India) Limited Total
+122,167535,153501414,Miami Air International Total
+123,164212,1181176916,Ethiopian Airlines Total
+124,161104,318624660,Sichuan Airlines Co Ltd. Total
+125,157445,641655520,LAN Argentina Total
+126,154286,866315890,Egyptair Total
+127,152440,108536855,"Aeroenlaces Nacionales, S.A. de C.V. d/b/a VivaAerobus Total"
+128,149938,147275158,VRG Linhas Aereas S A Total
+129,143539,374349712,Taca Peru Total
+130,143086,516397374,Royal Air Maroc Total
+131,139367,209886702,Aerovias de Intergracian Regional Total
+132,138364,503984448,Elysair d/b/a L'Avion Total
+133,135305,516729795,Air Japan Co Total
+134,133170,395514900,Tame Linea Aerea del Ecuador Tme EP Total
+135,129197,329969114,WOW Air ehf Total
+136,119087,666590852,Kuwait Airways Corp. Total
+137,117366,8614276,Grant Aviation Total
+138,111863,39965415,Eastern Airlines Group Inc. Total
+139,110417,164079662,"Avior Airlines, C.A. Total"
+140,109250,233983873,"Dynamic Airways, LLC Total"
+141,106119,13708320,"SeaPort Airlines, Inc. d/b/a Wings of Alaska Total"
+142,104992,262455264,Sata Internacional Total
+143,104032,1798339,Star Marianas Air Inc. Total
+144,100714,427372366,Britannia Airways Ltd. Total
+145,100537,27477877,Great Lakes Airlines Total
+146,99356,466377064,Ukraine International Airlines Total
+147,98464,125742326,Insel Air International B V Total
+148,94549,481113598,Transaero Airlines Total
+149,90381,36139199,Vision Airlines Total
+150,87887,2578054,Vieques Air Link Inc. Total
+151,80779,2716212,Island Airlines LLC Total
+152,80602,369167162,TUI Airlines Nederland B.V. Total
+153,80332,6230501,Polynesian Airlines Ltd. Total
+154,75567,7923514,Bering Air Inc. Total
+155,72561,16539672,"Multi-Aero, Inc. d/b/a Air Choice One Total"
+156,71766,4711422,Kenmore Air Harbor Total
+157,69447,372518007,Edelweiss Air Ag Total
+158,68613,482451300,Thai Airways International Ltd. Total
+159,66328,75149624,Inselair Aruba NV Total
+160,66274,1853991,"Air Charter, Inc d/b/a Air Flamenco Total"
+161,58986,44875490,Falcon Air Express Total
+162,57167,264420351,TUI Airlines Belgium N.V. d/b/a Jetairfly Total
+163,57056,251951650,Meridiana S.p.A Total
+164,54210,91390047,Fly Jamaica Airways Limited Total
+165,52498,247658731,Atlas Air Inc. Total
+166,52445,2370298,Yute Air Aka Flight Alaska Total
+167,49679,76739883,Surinam Airways Limited Total
+168,45542,17040632,Ultimate JetCharters LLC dba Ultimate Air Shuttle Total
+169,43969,11859166,Via Airlines d/b/a Charter Air Transport Total
+170,43730,305716486,Pakistan International Airlines Total
+171,41650,8425295,Wright Air Service Total
+172,40109,33552160,Songbird Airways Inc. Total
+173,39593,2507063,Kalinin Aviation LLC d/b/a Alaska Seaplanes Total
+174,36972,1820562,"PM Air, LLC Total"
+175,34766,182521500,Arik Air International Total
+176,32657,8381517,Boutique Air Total
+177,31046,181029226,Azerbaijan Airlines CJSC Total
+178,29055,6074668,Tradewind Aviation Total
+179,27593,161572707,Uzbekistan Airways Total
+180,26853,3520257,Warbelow Total
+181,26335,89316862,Transportes Aereos De Cabo Total
+182,23976,5487484,Corporate Flight Management Inc. Total
+183,23958,1078110,City Wings Inc dba Seaflight Total
+184,23473,2613944,Sun Air Express LLC dba Sun Air International Total
+185,23350,396950,New England Airlines Inc. Total
+186,21213,22170707,Sky King Inc. Total
+187,20828,193310,Venture Travel LLC d/b/a Taquan Air Service Total
+188,17188,658638,"Pacific Airways, Inc. Total"
+189,17146,966985,Scott Air LLC dba Island Air Express Total
+190,15453,11540200,Orange Air Total
+191,13689,846147,Katmai Air Total
+192,13107,2617436,Iliamna Air Taxi Total
+193,12527,707678,Island Air Service Total
+194,10402,7866820,Ameristar Air Cargo Total
+195,10203,324735,Makani Kai Air Charters Total
+196,10071,4770078,Transportes Aeromar S.A de C.V Total
+197,9799,3645158,Compagnie Aerienne Inter Regionale Express dba Air Antilles Express & Air Guyane Total
+198,9765,220077,Smokey Bay Air Inc. Total
+199,9347,18975689,"KaiserAir, Inc. Total"
+200,8997,41813286,Privatair Total
+201,8299,256452,Homer Air Total
+202,7689,739496,Air Sunshine Inc. Total
+203,7672,705664,Servant Air Inc. Total
+204,6711,1465614,"Charter Air Transport, Inc. Total"
+205,6427,277683,Spernak Airways Inc. Total
+206,6261,8389393,Avjet Corporation Total
+207,4119,168477,Air Excursions LLC Total
+208,4060,892886,Menagerie Enterprises Inc d/b/a Monarch Air Total
+209,3778,5179638,Bradley Air Services Ltd. Total
+210,3763,2004234,Alaska Central Express Total
+211,3339,10972557,Titan Airways Total
+212,3013,524307,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo Total
+213,2451,2352801,Chartright Air Inc. Total
+214,2214,1871902,London Air Services Limited Total
+215,1840,1086045,Nolinor Aviation Total
+216,1740,310882,Arctic Transportation Total
+217,1730,8272609,VistaJet Limited Total
+218,1724,85676,West Isle Air Total
+219,1647,97173,Grand Canyon Helicopters Total
+220,1342,4447634,Jet2.com Total
+221,1084,65997,Tanana Air Service Total
+222,880,1723040,Air Company Yakutia Total
+223,860,1377373,Flair Airlines Ltd. Total
+224,723,93659,40-Mile Air Total
+225,572,1490694,TAG Aviation (UK) Ltd. Total
+226,457,59446,"Reeve Air Alaska, LLC Total"
+227,420,1429583,Gainjet Aviation SA Total
+228,239,49224,Pacific Wings Airlines Total
+229,231,974766,Air Alsie A/S Total
+230,220,960139,CAT Aviation Total
+231,218,1046165,Blue Jet SP Z o o Total
+232,215,922472,"Global Jet Luxembourg, Sa Total"
+233,208,742005,TAG Aviation Espana S.L. Total
+234,169,543404,Acropolis Aviation Ltd. Total
+235,153,622552,Unijet Total
+236,141,45200,Propair Total
+237,138,11071,Erickson Helicopters Total
+238,130,663022,Comlux Aruba NV Total
+239,114,12547,Ellis Air Taxi Inc. Total
+240,105,444573,Albinati Aeronautics SA Total
+241,95,407465,ACM AIR CHARTER GmbH Total
+242,88,274018,"Comlux Malta, Ltd. Total"
+243,87,387156,DCA Total
+244,84,407407,G5 Executive Ag Total
+245,75,172245,ABS JETS A.S Total
+246,67,310341,VistaJet Luftfahrtunternehmen GmbH Total
+247,51,1404,Ward Air Total
+248,48,192666,Dassault Falcon Service Total
+249,48,232833,Tyrolean Jet Service Total
+250,39,158780,International Jet Management GmbH Total
+251,38,180012,Amira Air GmbH Total
+252,35,186375,Swiss Air Ambulance Total
+253,25,102446,TAG Aviation S.A. Total
+254,24,125922,Mjet GmbH Total
+255,19,80639,Albinati aviation Limited Total
+256,11,34239,JetClub AG Total
+257,10,46664,"Global Jet Austria, GmbH Total"
+258,4,16148,Bertelsmann Aviation GmbH Total
