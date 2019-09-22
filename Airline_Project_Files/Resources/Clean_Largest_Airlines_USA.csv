@@ -1,8 +1,8 @@
-,PASSENGERS,Passenger Miles,CARRIER_NAME
-0,144637180,116627136731,Southwest Airlines Co. Total
-1,137916298,186140690281,Delta Air Lines Inc. Total
-2,118541411,166869071222,American Airlines Inc. Total
-3,95028877,182508547016,United Air Lines Inc. Total
+,PASSENGERS,Passenger_Miles,CARRIER_NAME
+0,144637180,1.16627E+11,Southwest Airlines Co. Total
+1,137916298,1.86141E+11,Delta Air Lines Inc. Total
+2,118541411,1.66869E+11,American Airlines Inc. Total
+3,95028877,1.82509E+11,United Air Lines Inc. Total
 4,35130683,41726258863,JetBlue Airways Total
 5,30078314,16965403368,SkyWest Airlines Inc. Total
 6,28269616,32330747593,US Airways Inc. Total
