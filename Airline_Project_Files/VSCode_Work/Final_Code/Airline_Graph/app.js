@@ -27,11 +27,23 @@ var chartGroup = svg.append("g")
 var chosenXAxis = "PASSENGERS";
 
 // function used for updating x-scale var upon click on axis label
-function xScale(Clean_Largest_Airlines_USA, chosenXAxis) {
+function xScale(Clean_Largest_Airlines_USA_2, chosenXAxis) {
   // create scales
   var xLinearScale = d3.scaleLinear()
-    .domain([d3.min(Clean_Largest_Airlines_USA, d => d[chosenXAxis]) * 0.8,
-      d3.max(Clean_Largest_Airlines_USA, d => d[chosenXAxis]) * 1.2
+    .domain([d3.min(Clean_Largest_Airlines_USA_2, d => d[chosenXAxis]) * 0.68,
+      d3.max(Clean_Largest_Airlines_USA_2, d => d[chosenXAxis]) * 16.0
+    ])
+    .range([0, width]);
+
+  return xLinearScale;
+
+}
+
+function xScale2(Clean_Largest_Airlines_USA_2, chosenXAxis) {
+  // create scales
+  var xLinearScale = d3.scaleLinear()
+    .domain([d3.min(Clean_Largest_Airlines_USA_2, d => d[chosenXAxis]) * 0.5,
+      d3.max(Clean_Largest_Airlines_USA_2, d => d[chosenXAxis]) * 1.05
     ])
     .range([0, width]);
 
@@ -68,7 +80,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
     var label = "Passengers:";
   }
   else {
-    var label = "# of Albums:";
+    var label = "# of Passenger Miles";
   }
 
   var toolTip = d3.tip()
@@ -84,7 +96,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
     toolTip.show(data);
   })
     // onmouseout event
-    .on("mouseout", function(data, index) {
+    .on("mouseout", function(data, Operating_Revenue_in_thousands) {
       toolTip.hide(data);
     });
 
@@ -92,22 +104,22 @@ function updateToolTip(chosenXAxis, circlesGroup) {
 }
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_USA) {
+d3.csv("Clean_Largest_Airlines_USA_2.csv", function(err, Clean_Largest_Airlines_USA_2) {
   if (err) throw err;
 
   // parse data
-  Clean_Largest_Airlines_USA.forEach(function(data) {
+  Clean_Largest_Airlines_USA_2.forEach(function(data) {
     data.Passengers = +data.Passengers;
-    data.index = +data.index;
+    data.Operating_Revenue_in_thousands = +data.Operating_Revenue_in_thousands;
     data.Passenger_Miles = +data.Passenger_Miles;
   });
 
   // xLinearScale function above csv import
-  var xLinearScale = xScale(Clean_Largest_Airlines_USA, chosenXAxis);
+  var xLinearScale = xScale(Clean_Largest_Airlines_USA_2, chosenXAxis);
 
   // Create y scale function
   var yLinearScale = d3.scaleLinear()
-    .domain([0, d3.max(Clean_Largest_Airlines_USA, d => d.index)])
+    .domain([0, d3.max(Clean_Largest_Airlines_USA_2, d => d.Operating_Revenue_in_thousands)])
     .range([height, 0]);
 
   // Create initial axis functions
@@ -126,12 +138,13 @@ d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_US
 
   // append initial circles
   var circlesGroup = chartGroup.selectAll("circle")
-    .data(Clean_Largest_Airlines_USA)
+    .data(Clean_Largest_Airlines_USA_2)
     .enter()
     .append("circle")
     .attr("cx", d => xLinearScale(d[chosenXAxis]))
-    .attr("cy", d => yLinearScale(d.index))
-    .attr("r", 20)
+    .attr("cy", d => yLinearScale(d.Operating_Revenue_in_thousands))
+    .attr("r", 10)
+    .attr("stroke", "black")
     .attr("fill", "red")
     .attr("opacity", ".5");
 
@@ -142,7 +155,7 @@ d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_US
   var hairLengthLabel = labelsGroup.append("text")
     .attr("x", 0)
     .attr("y", 20)
-    .attr("value", "Passengers") // value to grab for event listener
+    .attr("value", "PASSENGERS") // value to grab for event listener
     .classed("active", true)
     .text("Number of Passengers");
 
@@ -156,11 +169,11 @@ d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_US
   // append y axis
   chartGroup.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 120 - margin.left)
+    .attr("y", 60 - margin.left)
     .attr("x", 0 - (height / 2))
     .attr("dy", "1em")
     .classed("axis-text", true)
-    .text("index");
+    .text("Operating Revenue (000s)");
 
   // updateToolTip function above csv import
   var circlesGroup = updateToolTip(chosenXAxis, circlesGroup);
@@ -179,7 +192,10 @@ d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_US
 
         // functions here found above csv import
         // updates x scale for new data
-        xLinearScale = xScale(Clean_Largest_Airlines_USA, chosenXAxis);
+        if (chosenXAxis == "PASSENGERS") {
+          xLinearScale = xScale(Clean_Largest_Airlines_USA_2, chosenXAxis);
+        } else {xLinearScale = xScale2(Clean_Largest_Airlines_USA_2, chosenXAxis);
+        }
 
         // updates x axis with transition
         xAxis = renderAxes(xLinearScale, xAxis);
