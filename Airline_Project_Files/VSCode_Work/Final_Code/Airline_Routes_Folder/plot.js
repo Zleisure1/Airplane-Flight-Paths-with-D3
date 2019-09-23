@@ -2,7 +2,7 @@ var width = 1500,
     height = 400;
 
 var projection = d3.geo.equirectangular()
-    .scale(153)
+    .scale(160)
     .rotate([115, 0])
     .translate([width / 2, height / 2])
     .precision(.1);

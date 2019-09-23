@@ -1,11 +1,11 @@
-var svgWidth = 960;
-var svgHeight = 500;
+var svgWidth = 1420;
+var svgHeight = 550;
 
 var margin = {
   top: 20,
   right: 40,
   bottom: 80,
-  left: 100
+  left: 150
 };
 
 var width = svgWidth - margin.left - margin.right;
@@ -156,7 +156,7 @@ d3.csv("Clean_Largest_Airlines_USA.csv", function(err, Clean_Largest_Airlines_US
   // append y axis
   chartGroup.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 0 - margin.left)
+    .attr("y", 120 - margin.left)
     .attr("x", 0 - (height / 2))
     .attr("dy", "1em")
     .classed("axis-text", true)
