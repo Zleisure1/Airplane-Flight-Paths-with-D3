@@ -16,8 +16,8 @@ def home():
 
 @app.route("/")
 def home():
-    print("This is our project of airline routes)
-    return render_template("index.html")
+    print("This is our project of airlines!)
+    return render_template("HMTL_Airlines_Routes.html")
 
 
 if __name__ == "__main__":
