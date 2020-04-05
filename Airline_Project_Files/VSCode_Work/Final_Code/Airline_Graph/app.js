@@ -226,3 +226,55 @@ d3.csv("Clean_Largest_Airlines_USA_2.csv", function(err, Clean_Largest_Airlines_
       }
     });
 });
+
+/////////chart 2
+d3.csv("Clean_Largest_Airlines_USA_2.csv").then(function(data3) {
+  data3.forEach(function(d) {
+    d.Operating_rev_per_passenger = +d.Operating_rev_per_passenger;
+    
+  })
+});
+
+var rev_per_passenger = []
+  for (x in chart2_data)
+  rev_per_passenger.push(chart2_data[x].Operating_rev_per_passenger)
+
+var svg = d3.select(".chart2")
+  .append("svg")
+  .attr("width", svgWidth)
+  .attr("height", svgHeight);
+
+// Append an SVG group
+svg.append("rect")
+  .classed("bar", true) // for bonus
+  .data(rev_per_passenger)
+  .attr("width", 100)
+  .attr("height", function(d) {
+    return d * 10;
+  })
+  .attr("x", 0)
+  .attr("y", 0);
+
+
+/* d3.csv("Clean_Largest_Airlines_USA_2.csv", function(err, chart2_data) {
+  if (err) throw err;
+
+  // parse data
+  chart2_data.forEach(function(data2) {
+    data2.Passengers = +data2.Passengers;
+    data2.Operating_Revenue_in_thousands = +data2.Operating_Revenue_in_thousands;
+    data2.Passenger_Miles = +data2.Passenger_Miles
+    data2.Operating_rev_per_passenger = +data2.Operating_rev_per_passenger;
+  });  */
+/* var chartGroup = svg.append("g")
+  .attr("transform", `translate(${margin.left}, ${margin.top})`)
+  .classed("bar", true) // for bonus
+  .data(rev_per_passenger)
+  .attr("width", 100)
+  .attr("height", function(d) {
+    return d * 10;
+  })
+  .attr("x", 0)
+  .attr("y", 0);
+ */
+
